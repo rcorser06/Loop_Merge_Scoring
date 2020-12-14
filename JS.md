@@ -1,5 +1,5 @@
 # Loop_Merge_Scoring
-//Code to allow "enter" key for response submission.
+//Code to allow "enter" key for response submission
 
 Qualtrics.SurveyEngine.addOnload(function()
 {
