@@ -1,9 +1,9 @@
 # Loop_Merge_Scoring
-//Code to allow "enter" key for response submission
+//Code to allow "enter" key for response submission.
+
 Qualtrics.SurveyEngine.addOnload(function()
 {
 	var qid = this.questionId;
-
 	document.onkeydown = function(event) {
 		console.log('keydown',event);
 		if (event.which == 37) {
